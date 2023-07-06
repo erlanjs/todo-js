@@ -1,0 +1,77 @@
+body {
+  background: lightskyblue;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.content {
+  background: white;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+}
+
+.field {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+}
+
+.field input {
+  width: 100%;
+}
+
+.field button {
+  padding: 5px 20px;
+  background: rgb(22, 172, 22);
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.field button:disabled {
+  background: rgb(111, 112, 111);
+  cursor: no-drop;
+}
+
+.list-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.list-ul li {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(222, 222, 222);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: -35px;
+  padding-right: -50px;
+}
+
+.list-ul li span {
+  background: rgb(255, 111, 111);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
